@@ -1,0 +1,448 @@
+body{
+  overflow-x: hidden;
+}
+p{
+  padding-top: 10px;
+  color: grey;
+}
+/*email exist logo*/
+.email-exist-logo img{
+  width:100px;
+  height: auto;
+  margin-top: 20px;
+}
+
+/*email exist logo closed*/
+/*cloud*/
+.cloud{
+  position: absolute;
+  background-image: url('../images/cloud1.png');
+  width: 180px;
+  height: 80px;
+  background-repeat: no-repeat;
+  left:50%;
+  animation-delay: -34s !important;
+  z-index: 1000;
+}
+.cloud1{
+  position: absolute;
+  background-image: url('../images/cloud.png');
+  width: 180px;
+  height: 80px;
+  background-repeat: no-repeat;
+  top:35px;
+  left:20%;
+  animation-delay: -38s !important;
+  z-index: 1000;
+}
+.cloud2{
+  position: absolute;
+  background-image: url('../images/cloud.png');
+  width: 180px;
+  height: 80px;
+  background-repeat: no-repeat;
+  top: 45px;
+  left:80%;
+  animation-delay: -15s !important;
+  z-index: 1000;
+}
+@-webkit-keyframes animate-cloud-horizontal {
+  0% {
+    left: calc(-50vw + 50%);
+    transform: translateX(-100%);
+  }
+  100%{
+    left: calc(50vw + 50%);
+    transform: translateY(0);
+  }
+}
+@-moz-keyframes animate-cloud-horizontal {
+  0% {
+    left: calc(-50vw + 50%);
+    transform: translateX(-100%);
+  }
+  100% {
+    left: calc(50vw + 50%);
+    transform: translateY(0);
+  }
+}
+@-ms-keyframes animate-cloud-horizontal {
+  0% {
+    left: calc(-50vw + 50%);
+    transform: translateX(-100%);
+  }
+  100% {
+    left: calc(50vw + 50%);
+    transform: translateY(0);
+  }
+}
+@keyframes animate-cloud-horizontal {
+  0% {
+    left: calc(-50vw + 50%);
+    transform: translateX(-100%);
+  }
+  100% {
+    left: calc(50vw + 50%);
+    transform: translateY(0);
+  }
+}
+.animate-left-fast {
+  -webkit-animation: animate-cloud-horizontal 10s linear infinite reverse;
+  -moz-animation: animate-cloud-horizontal 10s linear infinite reverse;
+  -ms-animation: animate-cloud-horizontal 10s linear infinite reverse;
+  animation: animate-cloud-horizontal 10s linear infinite reverse;
+}
+.animate-left-medium{
+  -webkit-animation: animate-cloud-horizontal 60s linear infinite reverse;
+  -moz-animation: animate-cloud-horizontal 60s linear infinite reverse;
+  -ms-animation: animate-cloud-horizontal 60s linear infinite reverse;
+  animation: animate-cloud-horizontal 60s linear infinite reverse;
+}
+.animate-left-slow {
+  -webkit-animation: animate-cloud-horizontal 100s linear infinite reverse;
+  -moz-animation: animate-cloud-horizontal 100s linear infinite reverse;
+  -ms-animation: animate-cloud-horizontal 100s linear infinite reverse;
+  animation: animate-cloud-horizontal 100s linear infinite reverse;
+}
+
+.m-t-1{
+  margin-top:70px;
+  padding-left: 0px;
+}
+.m-t-2{
+  margin-top:35px;
+}
+/*clouds closed*/
+/*input*/
+.form-rounded {
+  border-radius: 2rem;
+  margin: 0 auto;
+}
+.form-control{
+ width:100%;
+ padding: 5px;
+ padding-left: 20px;
+}
+.btn-primary{
+ border-radius: 2rem;
+ float: left;
+ width: 39%;
+ padding: 5px;
+}
+/*input closed*/
+/*tree open*/
+.container-fluid{
+  padding: 0;
+  margin: 0;
+}
+.tree{
+  position: absolute;
+  background-image: url("../images/tree.png");
+  background-repeat: no-repeat;
+  width:85px;
+  height:185px;
+  left:3%;
+  animation-delay: -30s !important;
+  /*z-index: 1000;*/
+}
+.mountain{
+  position: absolute;
+  background-image: url("../images/mountain.png");
+  background-repeat: no-repeat;
+  width:500px;
+  height:185px;
+  left:10%;
+  animation-delay: -70s !important;
+}
+.small-mountain{
+  margin-top:70px;
+  position: absolute;
+  background-image: url("../images/small-mountain.png");
+  background-repeat: no-repeat;
+  width:400px;
+  height:185px;
+  left:40%;
+  animation-delay: -50s !important;
+}
+.greentree{
+  margin-top:63px;
+  position: absolute;
+  background-image: url("../images/greentree.png");
+  background-repeat: no-repeat;
+  width:85px;
+  height:132px;
+  left:68%;
+  animation-delay: -6s !important;
+}
+.orangetree{
+  margin-top:44px;
+  position: absolute;
+  background-image: url("../images/orangetree.png");
+  background-repeat: no-repeat;
+  width:85px;
+  height:140px;
+  left:77%;
+  animation-delay: -25s !important;
+}
+.yellowtree{
+  position: absolute;
+  background-image: url("../images/yellowtree.png");
+  background-repeat: no-repeat;
+  width:85px;
+  height:185px;
+  left:85%;
+  animation-delay: -8s !important;
+}
+.lasttree{
+  position: absolute;
+  background-image: url("../images/lasttree.png");
+  background-repeat: no-repeat;
+  width:100px;
+  height:185px;
+  left:91%;
+  animation-delay: -4s !important;
+}
+.grass{
+  position: absolute;
+  top: 177px;
+  background-image: url("../images/grass.png");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  width: 100%;
+  background-size: cover;
+  height: 50px;
+
+}
+.grass-shadow{
+  position: absolute;
+  top: 190px;
+  background-image: url("../images/grass-shadow.png");
+  width: 100%;
+  background-size: cover;
+  background-position: 50% 50%;
+  height: 60px;
+  background-repeat: no-repeat;
+  
+}
+/*email */
+.email img{
+  width: 100%;
+  position: absolute;
+  top: 32px;
+}
+.ocean img{
+  width: 100%;
+  position: absolute;
+  top:70px;
+}
+@media screen and (min-width: 1919px) {
+  body{
+    height: 100vh;
+    overflow-y: hidden;
+  }
+
+  .email img{
+    top: 0;
+    width: 100%;
+    height: 490px;
+  }
+  .ocean img{
+    top: 65px;
+    height: 670px;
+  }
+  .email-exist-logo img{
+    margin-top: 70px;
+    width: 14%;
+  }
+  .sun {
+    margin-top:8%;
+    width: 9%;
+  }
+  .cloud{
+    background-size: 100% 100%;
+    top: 30px;
+  }
+  .cloud1{
+    background-size: 100% 100%;
+    top: 100px;
+  }
+  .cloud2{
+    background-size: 100% 100%;
+    top: 120px;
+  }
+  .m-t-2{
+    margin-top:11%;
+  }
+  .form-control{
+    font-size: 20px;
+    padding: 10px;
+    padding-left: 40px;
+    /*width: 50%*/
+  }
+  .btn-primary{
+    font-size: 20px;
+    padding: 10px;
+    width: 55%;
+  }
+  p{
+    font-size: 20px;
+    margin-top: 2%;
+    margin-bottom: 10%;
+  }
+  .tree{
+    background-size: 100% 100%;
+    height: 250px;
+    width: 120px;
+  }
+  .mountain{
+    background-size: 100% 100%;
+    height: 250px;
+    width:400px;
+  }
+  .small-mountain{
+    background-size: 100% 100%;
+    height: 185px;
+    width: 270px;
+    left: 33%;
+  }
+  .greentree{
+    background-size: 100% 100%;
+    height: 180px;
+    width: 80px;
+  }
+  .orangetree{
+    background-size: 100% 100%;
+    height: 200px;
+    width: 120px;
+  }
+  .yellowtree{
+    background-size: 100% 100%;
+    height: 234px;
+    width: 110px;
+  }
+  .lasttree{
+    background-size: 100% 100%;
+    height: 236px;
+    width: 150px;
+  }
+  .grass{
+    top: 232px;
+  }
+  .grass-shadow{
+    top: 270px;
+  }
+}
+@media only screen and (max-width: 767px){
+ body{
+  height: 100vh;
+  /*overflow-x: hidden;*/
+  overflow-y: hidden !important;
+}
+.container-fluid{
+  padding-right: 15px;
+}
+.email-exist-logo img{
+  width: 21%;
+  margin-top:10%;
+}
+.cloud{
+  background-size: 50% 50%;
+  width: 46%;
+  height: 61px;
+  top: 10px;
+}
+.cloud1{
+  background-size: 50% 50%;
+  width: 40%;
+  height: 58px;
+  top: 60px;
+}
+.cloud2{
+  background-size: 50% 50%;
+  width: 40%;
+  height: 58px;
+  top: 80px;
+  left: 60%;
+}
+.sun{
+  width: 12%;
+  /* left: 10%; */
+  margin-left: 20px;
+  margin-top: 40px;
+}
+.form-control {
+  width: 59%;
+  padding: 5px;
+  padding-left: 20px;
+  margin-left:10px;
+  font-size: 14px;
+}
+.btn-primary{
+  width: 30%;
+  bottom: 36px;
+  position: absolute;
+  margin-left:50px;
+  padding: 5px;
+  font-size: 14px;
+}
+p{
+  font-size: 12px;
+  width: 64%;
+}
+.tree{
+  background-size:40% 40%;
+  left: 5%;
+  height:200px;
+}
+.mountain{
+  background-size: 30% 30%;
+  width: 336px;
+  top: 26px;
+}
+#element2{
+  display: none;
+}
+.greentree{
+  background-size: 40% 40%;
+  top: -35px;
+  left: 45%;
+}
+.orangetree{
+  background-size: 40% 40%;
+  left: 56%;
+  margin-top: 23px;
+}
+.yellowtree{
+  background-size: 40% 40%;
+  top: 3px;
+  left: 66%;
+}
+.lasttree{
+  background-size: 40% 40%;
+  left: 74%;
+  top: 2px;
+  width: 90px;
+}
+.grass{
+  background-size: auto;
+  top: 57px;
+  width: 96.2%;
+}
+.grass-shadow{
+  width:96.2%;
+  top: 89px;
+}
+.email img{
+  width: 500px;
+  height:200px;
+  position: absolute;
+  top: 19px;
+  margin-left:30px;
+}
+.ocean img{
+  width: 96.2%;
+  height: 300px;
+  top: 26px;
+}
+
+}
